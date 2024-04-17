@@ -43,7 +43,7 @@
           <div v-for="(card, index) in list" :key="card.id" class="col">
 
             <div class="card p-3 mb-5 bg-black text-white">
-              <img :src="card.poster" class="poster card-img-top cp" :alt="card.title" @click="toggleAlbum()">
+              <img :src="card.poster" class="poster card-img-top cp" :alt="card.title" @click="toggleAlbum(index)">
               <div class="card-body">
                 <h5 class="card-title">{{ card.title }}</h5>
               </div>
@@ -53,24 +53,25 @@
                 <li class="list-group-item bg-black text-white">Genre: {{ card.genre }}</li>
               </ul>
             </div>
-
-            <div class="album-info position-fixed bottom-0 start-0 z-2 align-items-center" :class="{'d-flex' : isAlbumOpen}">
-              <div class="image"><img :src="card.poster" class="card-img-top pe-5" :alt="card.title"></div>
-              <div class="text-white">
-                <h2>{{ card.title }}</h2>
-                <h4>Author: {{ card.author }}</h4>
-                <h4>Year: {{ card.year }}</h4>
-                <h4>Genre: {{ card.genre }}</h4>
-              </div>
-              <div class="exit position-absolute fs-1 cp" @click="toggleAlbum()"><i class="fa-solid fa-compress"></i></div>
-            </div>
-
+            
           </div>
 
+          
         </div>
-
+        
       </div>
-
+      
+      <div class="album-info position-fixed bottom-0 start-0 align-items-center" :class="{'d-flex' : isAlbumOpen}">
+        <div class="image"><img :src="album.poster" class="card-img-top pe-5" :alt="album.title"></div>
+        <div class="text-white">
+          <h2>{{ album.title }}</h2>
+          <h4>Author: {{ album.author }}</h4>
+          <h4>Year: {{ album.year }}</h4>
+          <h4>Genre: {{ album.genre }}</h4>
+        </div>
+        <div class="exit position-absolute fs-1 cp" @click="toggleAlbum(0)"><i class="fa-solid fa-compress"></i></div>
+      </div>
+      
     </main>
 
     <footer class="text-center bg-black text-white">Boolify</footer>
