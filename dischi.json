@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Re Mida (Aurum)",
         "author": "Lazza",
         "year": 2019,
@@ -7,6 +8,7 @@
         "genre": "Rap"
     },
     {
+        "id": 2,
         "title": "Persona",
         "author": "Marracash",
         "year": 2019,
@@ -14,6 +16,7 @@
         "genre": "Rap"
     },
     {
+        "id": 3,
         "title": "23 6451",
         "author": "Thasup",
         "year": 2019,
@@ -21,6 +24,7 @@
         "genre": "Rap"
     },
     {
+        "id": 4,
         "title": "Hellvisback",
         "author": "Salmo",
         "year": 2016,
@@ -28,13 +32,15 @@
         "genre": "Rap"
     },
     {
-        "title": "GarbAge",
+        "id": 5,
+        "title": "Outsider",
         "author": "Nitro",
-        "year": 2020,
-        "poster": "https://images.rockol.it/cmQsmIGCv1abZaljlTORhhXTjms=/1200x900/smart/rockol-img/img/foto/upload/garbage-nitro-cover-ts1584802111.jpeg",
+        "year": 2023,
+        "poster": "https://meiweb.it/wp_2017/wp-content/uploads/2023/03/NITRO_OUTSIDER-cover.jpeg",
         "genre": "Rap"
     },
     {
+        "id": 6,
         "title": "X2VR",
         "author": "Sfera Ebbasta",
         "year": 2023,
@@ -42,6 +48,7 @@
         "genre": "Trap"
     },
     {
+        "id": 7,
         "title": "Habitat",
         "author": "Nayt",
         "year": 2023,
@@ -49,6 +56,7 @@
         "genre": "Rap"
     },
     {
+        "id": 8,
         "title": "Madreperla",
         "author": "Guè",
         "year": 2023,
@@ -56,6 +64,7 @@
         "genre": "Rap"
     },
     {
+        "id": 9,
         "title": "Ferro del mestiere",
         "author": "Jake La Furia",
         "year": 2022,

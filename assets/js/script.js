@@ -5,11 +5,13 @@ createApp({
   data(){
     return{
       apiUrl: 'server.php',
+      isAlbumOpen: false,
       list: []
     }
   },
 
   methods:{
+
     getApi(){
       axios.get(this.apiUrl)
       .then(res =>{
@@ -19,6 +21,17 @@ createApp({
       .catch(err =>{
         console.log(err);
       }) 
+    },
+
+    toggleAlbum(){
+      this.isAlbumOpen = !this.isAlbumOpen;
+      if (this.isAlbumOpen) {
+        document.body.classList.remove('overflow-auto');
+        document.body.classList.add('overflow-hidden');
+      } else {
+        document.body.classList.add('overflow-auto');
+        document.body.classList.remove('overflow-hidden');
+      }
     }
   },
 
