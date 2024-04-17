@@ -48,7 +48,7 @@
                 <h5 class="card-title">{{ card.title }}</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item bg-black text-white">Author: {{ card.author }}</li>
+                <li class="list-group-item bg-black text-white">Author: <a class="text-white text-decoration-none hov-underline" :href="card.author.href">{{ card.author.name }}</a></li>
                 <li class="list-group-item bg-black text-white">Year: {{ card.year }}</li>
                 <li class="list-group-item bg-black text-white">Genre: {{ card.genre }}</li>
               </ul>
@@ -64,10 +64,12 @@
       <div class="album-info position-fixed bottom-0 start-0 align-items-center" :class="{'d-flex' : isAlbumOpen}">
         <div class="image"><img :src="album.poster" class="card-img-top pe-5" :alt="album.title"></div>
         <div class="text-white">
-          <h2>{{ album.title }}</h2>
-          <h4>Author: {{ album.author }}</h4>
+          <h2 class="mb-4">{{ album.title }}</h2>
+          <h4>Author: <a class="text-white text-decoration-none hov-underline" :href="author.href">{{ author.name }}</a></h4>
           <h4>Year: {{ album.year }}</h4>
-          <h4>Genre: {{ album.genre }}</h4>
+          <h4 class="mb-4">Genre: {{ album.genre }}</h4>
+          <p>{{ album.bio }}</p>
+          <a class="text-white text-decoration-none hov-underline" :href="album.href">Vai all'album</a>
         </div>
         <div class="exit position-absolute fs-1 cp" @click="toggleAlbum(0)"><i class="fa-solid fa-compress"></i></div>
       </div>

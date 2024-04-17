@@ -7,7 +7,8 @@ createApp({
       apiUrl: 'server.php',
       isAlbumOpen: false,
       list: [],
-      album: {}
+      album: {},
+      author: {}
     }
   },
 
@@ -26,6 +27,7 @@ createApp({
 
     toggleAlbum(i){
       this.album = this.list[i];
+      this.author = this.album.author;
       this.isAlbumOpen = !this.isAlbumOpen;
       if (this.isAlbumOpen) {
         document.body.classList.remove('overflow-auto');

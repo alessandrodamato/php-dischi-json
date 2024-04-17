@@ -17,6 +17,10 @@ header, footer {
   cursor: pointer;
 }
 
+.hov-underline:hover{
+  text-decoration: underline !important;
+}
+
 /* header */
 
 header .logo{
