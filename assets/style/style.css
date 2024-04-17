@@ -1,0 +1,24 @@
+/* utils */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+/* header */
+
+header {
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+header .logo{
+  width: 80px;
+  margin-left: 120px;
+}
+
+/* main */

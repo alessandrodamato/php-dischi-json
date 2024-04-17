@@ -1,44 +1,65 @@
 [
     {
-        "title": "New Jersey",
-        "author": "Bon Jovi",
-        "year": 1988,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg",
-        "genre": "Rock"
+        "title": "Re Mida (Aurum)",
+        "author": "Lazza",
+        "year": 2019,
+        "poster": "https://m.media-amazon.com/images/I/91LHRcgC7NL._UF1000,1000_QL80_.jpg",
+        "genre": "Rap"
     },
     {
-        "title": "Live at Wembley 86",
-        "author": "Queen",
-        "year": 1992,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/71g40mlbinL._SX355_.jpg",
-        "genre": "Pop"
+        "title": "Persona",
+        "author": "Marracash",
+        "year": 2019,
+        "poster": "https://m.media-amazon.com/images/I/61xUhLOdFXL._UF1000,1000_QL80_.jpg",
+        "genre": "Rap"
     },
     {
-        "title": "Ten\"s Summoner\"s Tales",
-        "author": "Sting",
-        "year": 1993,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/411BQR6BHRL.jpg",
-        "genre": "Pop"
+        "title": "23 6451",
+        "author": "Thasup",
+        "year": 2019,
+        "poster": "https://www.lafeltrinelli.it/images/0190759496022_0_536_0_75.jpg",
+        "genre": "Rap"
     },
     {
-        "title": "Steve Gadd band",
-        "author": "Steve Gadd Band",
-        "year": 2018,
-        "poster": "https://m.media-amazon.com/images/I/81UtLzBDoEL._SS500_.jpg",
-        "genre": "Jazz"
+        "title": "Hellvisback",
+        "author": "Salmo",
+        "year": 2016,
+        "poster": "https://images.genius.com/fcd746ac310c174265a992b3f9d5fe66.1000x1000x1.jpg",
+        "genre": "Rap"
     },
     {
-        "title": "Brave new World",
-        "author": "Iron Maiden",
-        "year": 2000,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/0/03/Iron_Maiden_-_Brave_New_World.jpg",
-        "genre": "Metal"
+        "title": "GarbAge",
+        "author": "Nitro",
+        "year": 2020,
+        "poster": "https://images.rockol.it/cmQsmIGCv1abZaljlTORhhXTjms=/1200x900/smart/rockol-img/img/foto/upload/garbage-nitro-cover-ts1584802111.jpeg",
+        "genre": "Rap"
     },
     {
-        "title": "One more car, one more rider",
-        "author": "Eric Clapton",
-        "year": 2002,
-        "poster": "https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg",
-        "genre": "Rock"
+        "title": "X2VR",
+        "author": "Sfera Ebbasta",
+        "year": 2023,
+        "poster": "https://shop.universalmusic.it/cdn/shop/files/coversferastandard.png?v=1699955272&width=1000",
+        "genre": "Trap"
+    },
+    {
+        "title": "Habitat",
+        "author": "Nayt",
+        "year": 2023,
+        "poster": "https://ondarock.it/images/cover/NaytHabitat_1689065527.jpg",
+        "genre": "Rap"
+    },
+    {
+        "title": "Madreperla",
+        "author": "Guè",
+        "year": 2023,
+        "poster": "https://m.media-amazon.com/images/I/81XHG5Zk50L._UF1000,1000_QL80_.jpg",
+        "genre": "Rap"
+    },
+    {
+        "title": "Ferro del mestiere",
+        "author": "Jake La Furia",
+        "year": 2022,
+        "poster": "https://m.media-amazon.com/images/I/81b8bwWm2kL._UF1000,1000_QL80_.jpg",
+        "genre": "Rap"
     }
 ]

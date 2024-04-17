@@ -4,7 +4,8 @@ createApp({
   
   data(){
     return{
-      apiUrl: 'server.php'
+      apiUrl: 'server.php',
+      list: []
     }
   },
 
@@ -12,8 +13,12 @@ createApp({
     getApi(){
       axios.get(this.apiUrl)
       .then(res =>{
-        console.log(res.data);
+        this.list = res.data;
+        console.log(this.list);
       })
+      .catch(err =>{
+        console.log(err);
+      }) 
     }
   },
 
