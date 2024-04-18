@@ -8,7 +8,7 @@
 
   //indice dell'album selezionato
   $albumIndex = $_GET['index'];
-
+  
   //variabili
   $title = $list[$albumIndex]['title'];
   $authorName = $list[$albumIndex]['author']['name'];
@@ -18,6 +18,11 @@
   $genre = $list[$albumIndex]['genre'];
   $bio = $list[$albumIndex]['bio'];
   $href = $list[$albumIndex]['href'];
+
+  //se uno di questi è === null reindirizzo alla pagina index.html
+  if ($title === null || $authorName === null || $authorHref === null || $year === null || $poster === null || $genre === null || $bio === null || $href === null){
+    header('Location: index.html');
+  }
 
 ?>
 
