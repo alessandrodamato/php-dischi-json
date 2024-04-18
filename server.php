@@ -39,6 +39,16 @@ if (isset($_POST['indexToDelete'])) {
   
 }
 
+if (isset($_POST['indexToLike'])) {
+
+  $indexToLike = $_POST['indexToLike'];
+
+  $list[$indexToLike]['isLiked'] = !$list[$indexToLike]['isLiked'];
+
+  file_put_contents('dischi.json', json_encode($list));
+
+}
+
 
 
 // lo trasformo in file .json

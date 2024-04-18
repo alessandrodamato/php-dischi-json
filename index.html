@@ -47,7 +47,11 @@
               <img :src="card.poster" class="poster card-img-top cp" :alt="card.title" @click="toggleAlbum(index)">
               <div class="card-body">
                 <h5 class="card-title float-start">{{ card.title }}</h5>
-                <i @click="deleteAlbum(index)" class="fa-solid fa-trash-can float-end fs-3 delete" :class="{'d-inline-block' : card.isHovered}"></i>
+                <div v-if="card.isHovered" class="float-end">
+                  <i @click="deleteAlbum(index)" class="fa-solid fa-trash-can float-end fs-3 ms-3 cp delete"></i>
+                  <i v-if="card.isLiked" @click="toggleLike(index)" class="fa-solid fa-heart float-end fs-3 cp like"></i>
+                  <i v-else="" @click="toggleLike(index)" class="fa-regular fa-heart float-end fs-3 cp like"></i>
+                </div>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item bg-black text-white">Author: <a class="text-white text-decoration-none hov-underline" :href="card.author.href">{{ card.author.name }}</a></li>

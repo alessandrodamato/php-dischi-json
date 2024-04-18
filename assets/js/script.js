@@ -90,6 +90,16 @@ createApp({
       .then(res => {
         this.list = res.data;
       })
+    },
+
+    toggleLike(i){
+      const data = new FormData();
+      data.append('indexToLike', i);
+
+      axios.post(this.apiUrl, data)
+      .then(res => {
+        this.list = res.data;
+      })
     }
 
   },

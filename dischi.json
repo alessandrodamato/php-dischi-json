@@ -10,7 +10,8 @@
     "poster": "https://m.media-amazon.com/images/I/91LHRcgC7NL._UF1000,1000_QL80_.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Lazza",
-    "href": "https://open.spotify.com/intl-it/album/18oJqI5kIQ5lwDvpdlny99?si=jQ7ezdtRQJeeoHQs4IwPHQ"
+    "href": "https://open.spotify.com/intl-it/album/18oJqI5kIQ5lwDvpdlny99?si=jQ7ezdtRQJeeoHQs4IwPHQ",
+    "isLiked": false
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "poster": "https://m.media-amazon.com/images/I/61xUhLOdFXL._UF1000,1000_QL80_.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Marracash",
-    "href": "https://open.spotify.com/intl-it/album/7cZB2w7ju8vYRGzTSJ1H1v?si=rUVi9IDmQS2NrcZIKWKorg"
+    "href": "https://open.spotify.com/intl-it/album/7cZB2w7ju8vYRGzTSJ1H1v?si=rUVi9IDmQS2NrcZIKWKorg",
+    "isLiked": false
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "poster": "https://www.lafeltrinelli.it/images/0190759496022_0_536_0_75.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Thasup",
-    "href": "https://open.spotify.com/intl-it/album/2zBib5x7l1D5KPXPEePOab?si=hnaFR_1CRxeLd_fsZT8Hjg"
+    "href": "https://open.spotify.com/intl-it/album/2zBib5x7l1D5KPXPEePOab?si=hnaFR_1CRxeLd_fsZT8Hjg",
+    "isLiked": false
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "poster": "https://images.genius.com/fcd746ac310c174265a992b3f9d5fe66.1000x1000x1.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Salmo",
-    "href": "https://open.spotify.com/intl-it/album/6o2ipzLDelm6yXU0v4ZOIK?si=Iy2bo77sTIydegRca8r-GQ"
+    "href": "https://open.spotify.com/intl-it/album/6o2ipzLDelm6yXU0v4ZOIK?si=Iy2bo77sTIydegRca8r-GQ",
+    "isLiked": false
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     "poster": "https://meiweb.it/wp_2017/wp-content/uploads/2023/03/NITRO_OUTSIDER-cover.jpeg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Nitro",
-    "href": "https://open.spotify.com/intl-it/album/2YrxUX2oROEmzhkfZ2K8ry?si=1LKV-eeZRx2y9G-sAp-0ig"
+    "href": "https://open.spotify.com/intl-it/album/2YrxUX2oROEmzhkfZ2K8ry?si=1LKV-eeZRx2y9G-sAp-0ig",
+    "isLiked": false
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     "poster": "https://shop.universalmusic.it/cdn/shop/files/coversferastandard.png?v=1699955272&width=1000",
     "genre": "Trap",
     "bio": "Uno dei migliori album di Sfera Ebbasta",
-    "href": "https://open.spotify.com/intl-it/album/3ilgQgVMtxAxN2Jmb1OM29?si=e6wmQ_VySjC0bPagrH4JJA"
+    "href": "https://open.spotify.com/intl-it/album/3ilgQgVMtxAxN2Jmb1OM29?si=e6wmQ_VySjC0bPagrH4JJA",
+    "isLiked": false
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     "poster": "https://ondarock.it/images/cover/NaytHabitat_1689065527.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Nayt",
-    "href": "https://open.spotify.com/intl-it/album/5S2RzVtE5dwhqZHK9UH767?si=r3PgDtbPSqSg6gcoNItB3g"
+    "href": "https://open.spotify.com/intl-it/album/5S2RzVtE5dwhqZHK9UH767?si=r3PgDtbPSqSg6gcoNItB3g",
+    "isLiked": false
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "poster": "https://m.media-amazon.com/images/I/81XHG5Zk50L._UF1000,1000_QL80_.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Guè",
-    "href": "https://open.spotify.com/intl-it/album/5FnVg6RBrEFUIEpHRw8EB1?si=lhGBKjZ7Qr23Ld9UyacDQQ"
+    "href": "https://open.spotify.com/intl-it/album/5FnVg6RBrEFUIEpHRw8EB1?si=lhGBKjZ7Qr23Ld9UyacDQQ",
+    "isLiked": false
   },
   {
     "id": 9,
@@ -114,6 +122,7 @@
     "poster": "https://m.media-amazon.com/images/I/81b8bwWm2kL._UF1000,1000_QL80_.jpg",
     "genre": "Rap",
     "bio": "Uno dei migliori album di Jake La Furia",
-    "href": "https://open.spotify.com/intl-it/album/3MmCBPYzRAiMZc5tFMu0NL?si=zswdMyNVShCAIR_IVWhu1w"
+    "href": "https://open.spotify.com/intl-it/album/3MmCBPYzRAiMZc5tFMu0NL?si=zswdMyNVShCAIR_IVWhu1w",
+    "isLiked": false
   }
 ]
