@@ -52,10 +52,9 @@ createApp({
     },
 
     addAlbum(){
-
       this.isEditing = false;
-
       const data = new FormData();
+      
       data.append('newAlbumTitle', this.dataToAdd.title);
       data.append('newAlbumPoster', this.dataToAdd.poster);
       data.append('newAlbumAuthorName', this.dataToAdd.author.name);
@@ -80,6 +79,16 @@ createApp({
           bio: '',
           href: ''
         }
+      })
+    },
+
+    deleteAlbum(i){
+      const data = new FormData();
+      data.append('indexToDelete', i);
+
+      axios.post(this.apiUrl, data)
+      .then(res => {
+        this.list = res.data;
       })
     }
 

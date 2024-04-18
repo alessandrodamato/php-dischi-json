@@ -43,10 +43,11 @@
 
           <div v-for="(card, index) in list" :key="card.id" class="col">
 
-            <div class="card p-3 mb-5 bg-black text-white">
+            <div class="card p-3 mb-5 bg-black text-white" @mouseover="card.isHovered = true" @mouseleave="card.isHovered = false">
               <img :src="card.poster" class="poster card-img-top cp" :alt="card.title" @click="toggleAlbum(index)">
               <div class="card-body">
-                <h5 class="card-title">{{ card.title }}</h5>
+                <h5 class="card-title float-start">{{ card.title }}</h5>
+                <i @click="deleteAlbum(index)" class="fa-solid fa-trash-can float-end fs-3 delete" :class="{'d-inline-block' : card.isHovered}"></i>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item bg-black text-white">Author: <a class="text-white text-decoration-none hov-underline" :href="card.author.href">{{ card.author.name }}</a></li>
@@ -59,7 +60,7 @@
 
           <div class="col">
 
-            <div class="card p-3 mb-5 bg-black text-white">
+            <div class="card p-3 mb-5 bg-black text-white card-to-add">
               <div class="card-body text-center">
                 <button v-if="!isEditing" @click="isEditing = true" class="btn fs-1 text-white w-100 h-100">+</button>
                 <div v-else class="editor">
@@ -67,7 +68,7 @@
                   <input type="text" v-model="dataToAdd.title" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Titolo">
                   <input type="text" v-model="dataToAdd.author.name" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Autore">
                   <input type="text" v-model="dataToAdd.author.href" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Url profilo autore">
-                  <input type="text" v-model="dataToAdd.year" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Anno di pubblicazione">
+                  <input type="number" v-model="dataToAdd.year" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Anno di pubblicazione">
                   <input type="text" v-model="dataToAdd.genre" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Genere">
                   <input type="text" v-model="dataToAdd.bio" class="form-control bg-black text-white placeholder-white mb-2" placeholder="Descrizione">
                   <input type="text" v-model="dataToAdd.href" class="form-control bg-black text-white placeholder-white mb-4" placeholder="Url album">

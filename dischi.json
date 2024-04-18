@@ -1,119 +1,119 @@
 [
-    {
-        "id": 1,
-        "title": "Re Mida (Aurum)",
-        "author": {
-          "name": "Lazza",
-          "href": "https://open.spotify.com/intl-it/artist/0jdNdfi4vAuVi7a6cPDFBM?si=YLnqlHHOQVO2ahFQUCMnJA"
-        },
-        "year": 2019,
-        "poster": "https://m.media-amazon.com/images/I/91LHRcgC7NL._UF1000,1000_QL80_.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Lazza",
-        "href": "https://open.spotify.com/intl-it/album/18oJqI5kIQ5lwDvpdlny99?si=jQ7ezdtRQJeeoHQs4IwPHQ"
+  {
+    "id": 1,
+    "title": "Re Mida (Aurum)",
+    "author": {
+      "name": "Lazza",
+      "href": "https://open.spotify.com/intl-it/artist/0jdNdfi4vAuVi7a6cPDFBM?si=YLnqlHHOQVO2ahFQUCMnJA"
     },
-    {
-        "id": 2,
-        "title": "Persona",
-        "author": {
-          "name": "Marracash",
-          "href": "https://open.spotify.com/intl-it/artist/5AZuEF0feCXMkUCwQiQlW7?si=a_KDDNhETZe9i_yYXmkU_Q"
-        },
-        "year": 2019,
-        "poster": "https://m.media-amazon.com/images/I/61xUhLOdFXL._UF1000,1000_QL80_.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Marracash",
-        "href": "https://open.spotify.com/intl-it/album/7cZB2w7ju8vYRGzTSJ1H1v?si=rUVi9IDmQS2NrcZIKWKorg"
+    "year": 2019,
+    "poster": "https://m.media-amazon.com/images/I/91LHRcgC7NL._UF1000,1000_QL80_.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Lazza",
+    "href": "https://open.spotify.com/intl-it/album/18oJqI5kIQ5lwDvpdlny99?si=jQ7ezdtRQJeeoHQs4IwPHQ"
+  },
+  {
+    "id": 2,
+    "title": "Persona",
+    "author": {
+      "name": "Marracash",
+      "href": "https://open.spotify.com/intl-it/artist/5AZuEF0feCXMkUCwQiQlW7?si=a_KDDNhETZe9i_yYXmkU_Q"
     },
-    {
-        "id": 3,
-        "title": "23 6451",
-        "author": {
-          "name": "Thasup",
-          "href": "https://open.spotify.com/intl-it/artist/19i93sA0D7yS9dYoVNBqAA?si=ngNmKQjvQbO6a23k4MySaQ"
-        },
-        "year": 2019,
-        "poster": "https://www.lafeltrinelli.it/images/0190759496022_0_536_0_75.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Thasup",
-        "href": "https://open.spotify.com/intl-it/album/2zBib5x7l1D5KPXPEePOab?si=hnaFR_1CRxeLd_fsZT8Hjg"
+    "year": 2019,
+    "poster": "https://m.media-amazon.com/images/I/61xUhLOdFXL._UF1000,1000_QL80_.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Marracash",
+    "href": "https://open.spotify.com/intl-it/album/7cZB2w7ju8vYRGzTSJ1H1v?si=rUVi9IDmQS2NrcZIKWKorg"
+  },
+  {
+    "id": 3,
+    "title": "23 6451",
+    "author": {
+      "name": "Thasup",
+      "href": "https://open.spotify.com/intl-it/artist/19i93sA0D7yS9dYoVNBqAA?si=ngNmKQjvQbO6a23k4MySaQ"
     },
-    {
-        "id": 4,
-        "title": "Hellvisback",
-        "author": {
-          "name": "Salmo",
-          "href": "https://open.spotify.com/intl-it/artist/3hBQ4zniNdQf1cqqo6hzuW?si=NQ7sO43eQ7CtOs0Br2dugA"
-        },
-        "year": 2016,
-        "poster": "https://images.genius.com/fcd746ac310c174265a992b3f9d5fe66.1000x1000x1.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Salmo",
-        "href": "https://open.spotify.com/intl-it/album/6o2ipzLDelm6yXU0v4ZOIK?si=Iy2bo77sTIydegRca8r-GQ"
+    "year": 2019,
+    "poster": "https://www.lafeltrinelli.it/images/0190759496022_0_536_0_75.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Thasup",
+    "href": "https://open.spotify.com/intl-it/album/2zBib5x7l1D5KPXPEePOab?si=hnaFR_1CRxeLd_fsZT8Hjg"
+  },
+  {
+    "id": 4,
+    "title": "Hellvisback",
+    "author": {
+      "name": "Salmo",
+      "href": "https://open.spotify.com/intl-it/artist/3hBQ4zniNdQf1cqqo6hzuW?si=NQ7sO43eQ7CtOs0Br2dugA"
     },
-    {
-        "id": 5,
-        "title": "Outsider",
-        "author": {
-          "name": "Nitro",
-          "href": "https://open.spotify.com/intl-it/artist/6jQZzWW3JlEtcRDSzFVKSP?si=b3n9Jex9Qmq6kXiOUuRS7Q"
-        },
-        "year": 2023,
-        "poster": "https://meiweb.it/wp_2017/wp-content/uploads/2023/03/NITRO_OUTSIDER-cover.jpeg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Nitro",
-        "href": "https://open.spotify.com/intl-it/album/2YrxUX2oROEmzhkfZ2K8ry?si=1LKV-eeZRx2y9G-sAp-0ig"
+    "year": 2016,
+    "poster": "https://images.genius.com/fcd746ac310c174265a992b3f9d5fe66.1000x1000x1.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Salmo",
+    "href": "https://open.spotify.com/intl-it/album/6o2ipzLDelm6yXU0v4ZOIK?si=Iy2bo77sTIydegRca8r-GQ"
+  },
+  {
+    "id": 5,
+    "title": "Outsider",
+    "author": {
+      "name": "Nitro",
+      "href": "https://open.spotify.com/intl-it/artist/6jQZzWW3JlEtcRDSzFVKSP?si=b3n9Jex9Qmq6kXiOUuRS7Q"
     },
-    {
-        "id": 6,
-        "title": "X2VR",
-        "author": {
-          "name": "Sfera Ebbasta",
-          "href": "https://open.spotify.com/intl-it/artist/23TFHmajVfBtlRx5MXqgoz?si=Mhujw6NzSOO8TE0KNnSdEg"
-        },
-        "year": 2023,
-        "poster": "https://shop.universalmusic.it/cdn/shop/files/coversferastandard.png?v=1699955272&width=1000",
-        "genre": "Trap",
-        "bio": "Uno dei migliori album di Sfera Ebbasta",
-        "href": "https://open.spotify.com/intl-it/album/3ilgQgVMtxAxN2Jmb1OM29?si=e6wmQ_VySjC0bPagrH4JJA"
+    "year": 2023,
+    "poster": "https://meiweb.it/wp_2017/wp-content/uploads/2023/03/NITRO_OUTSIDER-cover.jpeg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Nitro",
+    "href": "https://open.spotify.com/intl-it/album/2YrxUX2oROEmzhkfZ2K8ry?si=1LKV-eeZRx2y9G-sAp-0ig"
+  },
+  {
+    "id": 6,
+    "title": "X2VR",
+    "author": {
+      "name": "Sfera Ebbasta",
+      "href": "https://open.spotify.com/intl-it/artist/23TFHmajVfBtlRx5MXqgoz?si=Mhujw6NzSOO8TE0KNnSdEg"
     },
-    {
-        "id": 7,
-        "title": "Habitat",
-        "author": {
-          "name": "Nayt",
-          "href": "https://open.spotify.com/intl-it/artist/7tmTvmqgTBcX88ZrSHByrD?si=Fu_2IM3-QYi2hMGpCUWnMw"
-        },
-        "year": 2023,
-        "poster": "https://ondarock.it/images/cover/NaytHabitat_1689065527.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Nayt",
-        "href": "https://open.spotify.com/intl-it/album/5S2RzVtE5dwhqZHK9UH767?si=r3PgDtbPSqSg6gcoNItB3g"
+    "year": 2023,
+    "poster": "https://shop.universalmusic.it/cdn/shop/files/coversferastandard.png?v=1699955272&width=1000",
+    "genre": "Trap",
+    "bio": "Uno dei migliori album di Sfera Ebbasta",
+    "href": "https://open.spotify.com/intl-it/album/3ilgQgVMtxAxN2Jmb1OM29?si=e6wmQ_VySjC0bPagrH4JJA"
+  },
+  {
+    "id": 7,
+    "title": "Habitat",
+    "author": {
+      "name": "Nayt",
+      "href": "https://open.spotify.com/intl-it/artist/7tmTvmqgTBcX88ZrSHByrD?si=Fu_2IM3-QYi2hMGpCUWnMw"
     },
-    {
-        "id": 8,
-        "title": "Madreperla",
-        "author": {
-          "name": "Guè",
-          "href": "https://open.spotify.com/intl-it/artist/7F2utINZ6tSokSiZTQBE27?si=j9IhGjnDQAeqHWez3bhbFg"
-        },
-        "year": 2023,
-        "poster": "https://m.media-amazon.com/images/I/81XHG5Zk50L._UF1000,1000_QL80_.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Guè",
-        "href": "https://open.spotify.com/intl-it/album/5FnVg6RBrEFUIEpHRw8EB1?si=lhGBKjZ7Qr23Ld9UyacDQQ"
+    "year": 2023,
+    "poster": "https://ondarock.it/images/cover/NaytHabitat_1689065527.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Nayt",
+    "href": "https://open.spotify.com/intl-it/album/5S2RzVtE5dwhqZHK9UH767?si=r3PgDtbPSqSg6gcoNItB3g"
+  },
+  {
+    "id": 8,
+    "title": "Madreperla",
+    "author": {
+      "name": "Guè",
+      "href": "https://open.spotify.com/intl-it/artist/7F2utINZ6tSokSiZTQBE27?si=j9IhGjnDQAeqHWez3bhbFg"
     },
-    {
-        "id": 9,
-        "title": "Ferro del mestiere",
-        "author": {
-          "name": "Jake La Furia",
-          "href": "https://open.spotify.com/intl-it/artist/6JFRI91YaCXREGQYzHSnUH?si=_Fw6PuLFR2Od2A8r-BWhYQ"
-        },
-        "year": 2022,
-        "poster": "https://m.media-amazon.com/images/I/81b8bwWm2kL._UF1000,1000_QL80_.jpg",
-        "genre": "Rap",
-        "bio": "Uno dei migliori album di Jake La Furia",
-        "href": "https://open.spotify.com/intl-it/album/3MmCBPYzRAiMZc5tFMu0NL?si=zswdMyNVShCAIR_IVWhu1w"
-    }
+    "year": 2023,
+    "poster": "https://m.media-amazon.com/images/I/81XHG5Zk50L._UF1000,1000_QL80_.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Guè",
+    "href": "https://open.spotify.com/intl-it/album/5FnVg6RBrEFUIEpHRw8EB1?si=lhGBKjZ7Qr23Ld9UyacDQQ"
+  },
+  {
+    "id": 9,
+    "title": "Ferro del mestiere",
+    "author": {
+      "name": "Jake La Furia",
+      "href": "https://open.spotify.com/intl-it/artist/6JFRI91YaCXREGQYzHSnUH?si=_Fw6PuLFR2Od2A8r-BWhYQ"
+    },
+    "year": 2022,
+    "poster": "https://m.media-amazon.com/images/I/81b8bwWm2kL._UF1000,1000_QL80_.jpg",
+    "genre": "Rap",
+    "bio": "Uno dei migliori album di Jake La Furia",
+    "href": "https://open.spotify.com/intl-it/album/3MmCBPYzRAiMZc5tFMu0NL?si=zswdMyNVShCAIR_IVWhu1w"
+  }
 ]

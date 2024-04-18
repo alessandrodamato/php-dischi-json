@@ -12,7 +12,7 @@ $list = json_decode($str, true);
 if (isset($_POST['newAlbumTitle']) && isset($_POST['newAlbumPoster']) && isset($_POST['newAlbumAuthorName']) && isset($_POST['newAlbumAuthorHref']) && isset($_POST['newAlbumYear']) && isset($_POST['newAlbumGenre']) && isset($_POST['newAlbumBio']) && isset($_POST['newAlbumHref']) && !empty($_POST['newAlbumTitle']) && !empty($_POST['newAlbumPoster']) && !empty($_POST['newAlbumAuthorName']) && !empty($_POST['newAlbumAuthorHref']) && !empty($_POST['newAlbumYear']) && !empty($_POST['newAlbumGenre']) && !empty($_POST['newAlbumBio']) && !empty($_POST['newAlbumHref'])) {
 
   $newAlbum = [
-    'id' => rand(100, 10000),
+    'id' => rand(100, 100000),
     'title' => $_POST['newAlbumTitle'],
     'author' => [
       'name' => $_POST['newAlbumAuthorName'],
@@ -28,6 +28,15 @@ if (isset($_POST['newAlbumTitle']) && isset($_POST['newAlbumPoster']) && isset($
   $list[] = $newAlbum;
   file_put_contents('dischi.json', json_encode($list));
 
+}
+
+if (isset($_POST['indexToDelete'])) {
+
+  $indexToDelete = $_POST['indexToDelete'];
+  array_splice($list, $indexToDelete, 1);
+
+  file_put_contents('dischi.json', json_encode($list));
+  
 }
 
 
