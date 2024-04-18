@@ -6,9 +6,22 @@ createApp({
     return{
       apiUrl: 'server.php',
       isAlbumOpen: false,
+      isEditing: false,
       list: [],
       album: {},
-      author: {}
+      author: {},
+      dataToAdd:{
+        poster: '',
+        title: '',
+        author: {
+          name: '',
+          href: ''
+        },
+        year: '',
+        genre: '',
+        bio: '',
+        href: ''
+      }
     }
   },
 
@@ -36,7 +49,40 @@ createApp({
         document.body.classList.add('overflow-auto');
         document.body.classList.remove('overflow-hidden');
       }
+    },
+
+    addAlbum(){
+
+      this.isEditing = false;
+
+      const data = new FormData();
+      data.append('newAlbumTitle', this.dataToAdd.title);
+      data.append('newAlbumPoster', this.dataToAdd.poster);
+      data.append('newAlbumAuthorName', this.dataToAdd.author.name);
+      data.append('newAlbumAuthorHref', this.dataToAdd.author.href);
+      data.append('newAlbumYear', this.dataToAdd.year);
+      data.append('newAlbumGenre', this.dataToAdd.genre);
+      data.append('newAlbumBio', this.dataToAdd.bio);
+      data.append('newAlbumHref', this.dataToAdd.href);
+
+      axios.post(this.apiUrl, data)
+      .then(res => {
+        this.list = res.data;
+        this.dataToAdd = {
+          poster: '',
+          title: '',
+          author: {
+            name: '',
+            href: ''
+          },
+          year: '',
+          genre: '',
+          bio: '',
+          href: ''
+        }
+      })
     }
+
   },
 
   mounted(){
